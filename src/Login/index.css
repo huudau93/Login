@@ -1,0 +1,47 @@
+.main-login {
+  position: absolute;
+  width: 518px;
+  height: 804px;
+  left: 48px;
+  top: 48px;
+  background: #ffffff;
+  /* Elevation-2 */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding-top: 5rem;
+  padding-left: 32px;
+  padding-right: 32px;
+  line-height: 35px;
+}
+.inValid {
+  display: none;
+}
+
+.imgLogo {
+  height: 50.69px;
+  width: 160px;
+  padding-top: 64px;
+  padding-left: 32px;
+}
+.delet-underscore {
+  color: rgb(82, 82, 231);
+}
+.space-between {
+  display: flex;
+  flex: space-between;
+}
+.stylePass {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+.colorTag {
+  color: blue;
+}
+.line-heigh {
+  margin-top: 30px;
+}
+
+.marginToLogo {
+  margin-top: 154.3px;
+}
