@@ -1,4 +1,4 @@
-.wrapper1 {
+.main-login {
   position: absolute;
   width: 518px;
   height: 804px;
@@ -40,4 +40,8 @@
 }
 .line-heigh {
   margin-top: 30px;
+}
+
+.marginToLogo {
+  margin-top: 154.3px;
 }

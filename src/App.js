@@ -4,32 +4,15 @@ import "./App.css";
 import logo from "./Group 1082.jpg";
 
 function App() {
-  // var onBtn = ()=>{
-  //   var userID=document.getElementById('userid');
-  //   var passID=document.getElementById('passid');
-  //   var valueUser=userID.value;
-  //   var valuePass=passID.value;
-  //   if(valueUser==="" || valueUser.include('@')){
-  //     var spanId=document.getElementById('spanUserID');
-  //     spanId.style.display='block';
-  //   }
-
-  //   if(valuePass===""){
-  //     var spanPassId=document.getElementById('spanPassID');
-  //     spanPassId.style.display='block';
-  //   }
-
-  // }
-
   return (
     <React.Fragment>
-      <div className="wrapper1">
-        <div className="container " style={{ paddingTop: 0 }}>
+      <div className="main-login">
+        <div className="container">
           <div className="text-left  ">
-            <img classNames="imgLogo" src={logo} alt="logo1" />
+            <img classNames="imgLogo" src={logo} alt="logo" />
           </div>
 
-          <label style={{ marginTop: 154.3 }}>
+          <label className="marginToLogo">
             Email<span className="text-danger">*</span>
           </label>
           <input
