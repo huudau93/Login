@@ -1,5 +1,4 @@
 import React from "react";
-// import { useState  } from 'react';
 import "./index.css";
 import logo from "../asset/image/Group 1082.jpg";
 
