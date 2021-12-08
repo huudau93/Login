@@ -1,33 +1,29 @@
 import React from "react";
 // import { useState  } from 'react';
-import "./index.css";
-import logo from "../asset/image/Group 1082.jpg";
+import "./indexNewPassword.css";
+import logo from "../asset/image/Frame5004.png";
 
-function Login() {
+function CreateNewPassword() {
   return (
     <React.Fragment>
       <div className="main-login">
-        <div className="container-main ">
-          <img className="logoImage" src={logo} alt="logo" />
-
-          <label className="marginToLogo">
-            Email<span className="text-danger">*</span>
+        <div className="container">
+          <img className="logoImg" src={logo} alt="logo" />
+          <p className="setBoldText">Tạo mật khẩu mới</p>
+          <label className="toLogo">
+            Mật khẩu mới <span className="text-danger">*</span>
           </label>
           <input
             id="userid"
             className="col-sm-12 set-border"
             type="text"
-            placeholder="example@gmail.com"
+            placeholder="Nhập mật khẩu"
           />
-          <span id="spanUserID" className="inValid text-danger">
-            username is not exist
-          </span>
 
           <div className="stylePass">
             <label>
-              Password<span className="text-danger">*</span>
+              Nhập lại mật khẩu mới<span className="text-danger">*</span>
             </label>
-            <a className="colorTag">Forgot password ?</a>
           </div>
 
           <input
@@ -36,15 +32,12 @@ function Login() {
             type="text"
             placeholder="Nhập mật khẩu"
           />
-          <span id="spanPassID" className="inValid text-danger">
-            password is incorrect
-          </span>
 
           <div className=" text-center line-heigh">
             <input
               type="button"
               className="col-sm-12 btn btn-primary"
-              value="Đăng Nhập"
+              value="Tạo mật khẩu mới"
             />
           </div>
         </div>
@@ -53,4 +46,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default CreateNewPassword;

@@ -4,6 +4,8 @@
   height: 804px;
   left: 461px;
   top: 48px;
+  padding-right: 31px;
+  padding-left: 32px;
   background: #ffffff;
   /* Elevation-2 */
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
@@ -52,13 +54,10 @@
   left: 169.5px;
   position: absolute;
 }
-/* .display-main {
-  display: flex;
-  justify-content: left;
-} */
+
 label.boldText {
   font-weight: bold;
-  padding-top: 284px;
+  padding-top: 358px;
 }
 .sizeOfText {
   height: 48px;
@@ -83,9 +82,12 @@ input::placeholder {
   color: #c6c6c8;
 }
 .main {
+  position: absolute;
   padding-top: 0px;
+  left: 0px;
+  right: 0px;
   padding-left: 32px;
-  padding-right: 31px;
+  padding-right: 32px;
 }
 .button-send {
   margin-top: 30px;
@@ -103,8 +105,15 @@ input::placeholder {
 }
 .fixArrow {
   position: absolute;
-  top: 6px;
-  left: 12px;
+  top: 0px;
+  left: 0px;
   padding-top: 44px;
   padding-left: 48px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #1a94ff;
+}
+label {
+  margin-bottom: 0px;
 }

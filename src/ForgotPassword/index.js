@@ -1,12 +1,11 @@
 import React from "react";
 import "./index.css";
 import logoImage from "../asset/image/Frame5004.png";
-
 import arrow from "../asset/image/Navigation/Vector.png";
 function ForgotPassword() {
   return (
     <React.Fragment>
-      <div className="main-login display-main">
+      <div className="main-login ">
         <img className="fixArrow" src={arrow} alt="arrowImage" />
         <img className="resetLogoImage" src={logoImage} alt="logo" />
         <div className="main">
@@ -32,7 +31,9 @@ function ForgotPassword() {
             />
           </div>
 
-          <button className="button-send">Lấy lại mật khẩu</button>
+          <button className="btn btn-primary button-send">
+            Lấy lại mật khẩu
+          </button>
         </div>
       </div>
     </React.Fragment>
