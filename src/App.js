@@ -1,6 +1,6 @@
 import React from "react";
 import CreateNewPassword from "./CreatePassword/indexNewPassword";
-//import ForgotPassword from "./ForgotPassword";
+import ForgotPassword from "./ForgotPassword";
 import Login from "./Login/index";
 import SuccessMessage from "./Notification_resetPasswordSuccess/indexNotification";
 import SuccessFully from "./MessageSuccess/success";
@@ -11,7 +11,7 @@ import Management from "./AccessManagerment/management";
 function App() {
   //return <ForgotPassword />;
   //return <Login />;
-  //return <SuccessMessage />;
+  // return <SuccessMessage />;
   //return <CreateNewPassword />;
   //return <SuccessFully />;
   return <Management />;
