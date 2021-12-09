@@ -1,51 +1,39 @@
-.main-wrapperOne {
-  position: absolute;
-  width: 518px;
-
-  /* left: 461px; */
-  top: 48px;
-  bottom: 48px;
-  padding-top: 232.3px;
-  padding-left: 32px;
-  padding-right: 32px;
-  background: #ffffff;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-}
-.container-Content {
-  text-align: center;
-}
-.setLogo {
-  padding-bottom: 40.3px;
-}
-.setMarginBottom {
-  margin-bottom: 32px;
-  font-size: 16px;
-}
-.textButton {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.setBackground {
+.setBackgroundSS {
+  background-image: url("../asset/image/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  background-image: url("../asset/image/background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(0, 0, 0, 0.7);
 }
-.setBackground::before {
-  content: "";
-  position: relative;
-  display: block;
-  height: 100vh;
-  width: 100%;
+.formMessageSS {
+  width: 418px;
+  height: calc(100vh- (96px));
+  margin-top: 48px;
+  margin-bottom: 48px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
 
-  background-color: rgba(0, 0, 0, 0.7);
+.logoImg {
+  margin-top: 200px;
+  text-align: center;
+}
+.textMessageSS {
+  text-align: center;
+  margin-top: 40px;
+}
+.buttonMessageSS {
+  height: 50px;
+  color: #fff;
+  width: 100%;
+}
+.button-wrapSS {
+  padding-left: 32px;
+  padding-top: 20px;
+  padding-right: 32px;
+  margin-bottom: 200px;
 }

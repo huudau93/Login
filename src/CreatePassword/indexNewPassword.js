@@ -8,52 +8,36 @@ function CreateNewPassword() {
     <React.Fragment>
       <div className="setBackgroundPass">
         <div className="main-Password ">
-          <div className="imgPass">
-            <img className="logoImg" src={logo} alt="logo" />
+          <div className="imgPassword">
+            <img src={logo} alt="logo" />
           </div>
-          <div className="set-contentForm">
-            <div className="setBoldText">
-              <p>Tạo mật khẩu mới</p>
-            </div>
 
-            <div className="setSpaceInput">
-              <label>
-                Mật khẩu mới <span className="text-danger">*</span>
-              </label>
-            </div>
+          <div className="setBoldText">Tạo mật khẩu mới</div>
 
-            <div>
-              <input
-                id="userid"
-                className="col-sm-12 set-border"
-                type="text"
-                placeholder="Nhập mật khẩu"
-              />
-            </div>
+          <div className="setSpaceInput">
+            Mật khẩu mới <span className="text-danger">*</span>
+          </div>
 
-            <div className="setSpaceInput">
-              <label>
-                Nhập lại mật khẩu mới
-                <span className="text-danger">*</span>
-              </label>
-            </div>
+          <div className="set-border">
+            <input
+              id="userid"
+              className="col-sm-12 set-border"
+              type="text"
+              placeholder="Nhập mật khẩu"
+            />
+          </div>
 
-            <div>
-              <input
-                id="passid"
-                className="col-sm-12 set-border"
-                type="text"
-                placeholder="Nhập mật khẩu"
-              />
-            </div>
+          <div className="setSpaceInput">
+            Nhập lại mật khẩu mới
+            <span className="text-danger">*</span>
+          </div>
 
-            <div className="setSpaceInput">
-              <input
-                type="button"
-                className="col-sm-12 btn button-color"
-                value="Tạo mật khẩu mới"
-              />
-            </div>
+          <div className="set-border">
+            <input id="passIputid" type="text" placeholder="Nhập mật khẩu" />
+          </div>
+
+          <div className="setSpaceBtn">
+            <button className="createPassword-btn">Tạo mật khẩu mới</button>
           </div>
 
           {/* <p className="setBoldText">Tạo mật khẩu mới</p> */}

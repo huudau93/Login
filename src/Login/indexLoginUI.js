@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./indexLogin.css";
 import logo from "../asset/image/Group 1082.jpg";
 
 function Login() {
@@ -7,21 +7,53 @@ function Login() {
     <React.Fragment>
       <div className="setBackgroundOne">
         <div className="main-loginn">
-          <div className="container-main ">
+          <div className="logoSskpi">
             <img className="logoImage" src={logo} alt="logo" />
-
-            <label className="marginToLogo">
-              Email<span className="text-danger">*</span>
-            </label>
+          </div>
+          <div className="inputNameLogin">
+            Email<span className="text-danger">*</span>
+          </div>
+          <div>
             <input
               id="userid"
-              className="col-sm-12 set-border"
+              className="userNameLogin"
               type="text"
               placeholder="example@gmail.com"
             />
+          </div>
+          <div>
             <span id="spanUserID" className="inValid text-danger">
               username is not exist
             </span>
+          </div>
+          <div className="titlePassword">
+            <label>
+              Password<span className="text-danger">*</span>
+            </label>
+            <a className="colorTag">Forgot password ?</a>
+          </div>
+          <div>
+            <input
+              id="passid"
+              className="userNameLogin"
+              type="text"
+              placeholder="Nhập mật khẩu"
+            />
+          </div>
+          <div>
+            <span id="spanPassID" className="inValid text-danger">
+              password is incorrect
+            </span>
+          </div>
+
+          <div>
+            <button className="button-login  btn btn-primary" type="button">
+              Đăng Nhập
+            </button>
+          </div>
+          {/* <div className="container-main ">
+            
+
 
             <div className="stylePass">
               <label>
@@ -47,7 +79,7 @@ function Login() {
                 value="Đăng Nhập"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </React.Fragment>

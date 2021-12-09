@@ -1,34 +1,19 @@
 .main-contentNotifi {
-  position: absolute;
-  width: 518px;
-
-  /* left: 461px; */
-  top: 48px;
-  bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 418px;
   padding-left: 32px;
   padding-right: 32px;
   background: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  min-zoom: 100vh;
 }
 .positionOfSuccessIcon {
-  top: 201.3px;
-  left: 227.3px;
-  position: absolute;
+  padding-top: 200px;
 }
-.main-paragraph {
-  margin-top: 300px;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  display: flex;
-  padding-top: 0px;
-  flex-direction: column;
-  text-align: center;
-}
+
 .bold-text {
   font-weight: bold;
   padding-top: 24.3px;
@@ -45,33 +30,25 @@
 .setButton {
   margin-top: 32px;
   min-height: 50px;
-  margin-left: 31px;
   text-align: center;
-  line-height: 24px;
   font-size: 16px;
   border-radius: 4px;
-  max-width: 455px;
+  width: 100%;
   color: #fff;
   border: none;
   background-color: #1a94ff;
+  margin-bottom: 16vh;
 }
-
-.setBackground {
-  position: relative;
-  height: 900px;
+.bag-buttonId {
   width: 100%;
+}
+.setBackgroundId {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("../asset/image/background.png");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.setBackground::before {
-  content: "";
-  position: relative;
-  display: block;
-  height: 900px;
-  width: 100%;
-
-  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding-top: 48px;
 }

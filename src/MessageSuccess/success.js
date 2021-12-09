@@ -2,16 +2,20 @@ import React from "react";
 import "./success.css";
 import logoImage from "../asset/image/Vector-success.png";
 
+{
+  /* <img className="setLogo" src={logoImage} alt="logo" /> */
+}
 function SuccessFully() {
   return (
     <React.Fragment>
-      <div className="setBackground">
-        <div className="main-wrapperOne">
-          <div className="container-Content">
+      <div className="setBackgroundSS">
+        <div className="formMessageSS">
+          <div className="logoImg">
             <img className="setLogo" src={logoImage} alt="logo" />
-            <p className="setMarginBottom">Tạo mới thành công</p>
-            <button className="btn btn-primary col-sm-12 textButton">
-              {" "}
+          </div>
+          <div className="textMessageSS">Tạo mới mật khẩu thành công</div>
+          <div className="button-wrapSS ">
+            <button className=" btn btn-primary buttonMessageSS">
               Quay lại đăng nhập
             </button>
           </div>
