@@ -4,6 +4,7 @@ import CreateNewPassword from "./CreatePassword/indexNewPassword";
 import Login from "./Login/index";
 import SuccessMessage from "./Notification_resetPasswordSuccess/indexNotification";
 import SuccessFully from "./MessageSuccess/success";
+import Management from "./AccessManagerment/management";
 
 // import logo from "./Group 1082.jpg";
 
@@ -12,7 +13,8 @@ function App() {
   //return <Login />;
   //return <SuccessMessage />;
   //return <CreateNewPassword />;
-  return <SuccessFully />;
+  //return <SuccessFully />;
+  return <Management />;
 }
 
 export default App;
