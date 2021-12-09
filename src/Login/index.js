@@ -5,8 +5,8 @@ import logo from "../asset/image/Group 1082.jpg";
 function Login() {
   return (
     <React.Fragment>
-      <div className="setBackground">
-        <div className="main-login">
+      <div className="setBackgroundOne">
+        <div className="main-loginn">
           <div className="container-main ">
             <img className="logoImage" src={logo} alt="logo" />
 

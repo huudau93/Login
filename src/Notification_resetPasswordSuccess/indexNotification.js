@@ -6,7 +6,7 @@ function SuccessMessage() {
   return (
     <React.Fragment>
       <div className="setBackground">
-        <div className="main-content">
+        <div className="main-contentNotifi ">
           <img className="positionOfSuccessIcon" src={success} alt="success" />
           <div className="main-paragraph">
             <span className="bold-text"> Mật khẩu đã được gửi </span>

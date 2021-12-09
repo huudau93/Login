@@ -11,10 +11,11 @@ import Management from "./AccessManagerment/management";
 function App() {
   //return <ForgotPassword />;
   //return <Login />;
-  // return <SuccessMessage />;
+  //return <SuccessMessage />;
   //return <CreateNewPassword />;
-  //return <SuccessFully />;
-  return <Management />;
+  return <SuccessFully />;
+  //
+  //return <Management />;
 }
 
 export default App;

@@ -1,12 +1,18 @@
-.main-content {
+.main-contentNotifi {
   position: absolute;
   width: 518px;
-  height: 804px;
+
+  /* left: 461px; */
   top: 48px;
-  background-color: #fff;
-  left: 461px;
-  border-radius: 8px;
+  bottom: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .positionOfSuccessIcon {
   top: 201.3px;

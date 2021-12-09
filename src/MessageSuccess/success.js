@@ -6,7 +6,7 @@ function SuccessFully() {
   return (
     <React.Fragment>
       <div className="setBackground">
-        <div className="main-wrapper">
+        <div className="main-wrapperOne">
           <div className="container-Content">
             <img className="setLogo" src={logoImage} alt="logo" />
             <p className="setMarginBottom">Tạo mới thành công</p>
