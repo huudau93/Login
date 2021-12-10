@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  width: 100%;
 }
 
 .logoImgOne {
@@ -17,6 +18,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   /* flex: 0.7; */
 }
 .wrapper-three {
@@ -42,6 +44,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 16px;
 }
 .boxMini {
   width: 40px;
@@ -69,9 +72,13 @@
 }
 .navbar-three-input {
   display: flex;
-  flex-direction: row;
+  flex-direction: space-around;
+  justify-content: center;
   align-items: center;
 }
+/* .div-table {
+  width: 100%;
+} */
 
 .set-size-componentIp {
   height: 40px;
@@ -102,8 +109,8 @@ select {
   display: flex;
   flex-direction: row;
   margin-top: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  /* margin-left: 16px; */
+  /* margin-right: 16px; */
 
   background-color: #f5f5fa;
   height: 48px;
@@ -172,4 +179,18 @@ select {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.bag-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* text-align: center; */
+}
+
+a:hover,
+.active {
+  text-decoration: none;
+  color: black;
 }

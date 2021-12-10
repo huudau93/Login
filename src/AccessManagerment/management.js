@@ -10,7 +10,7 @@ import file from "../asset/image/fill.png";
 function Management() {
   return (
     <React.Fragment>
-      <div>
+      <div className="bag-company">
         <div className="setup-navbar">
           <div className="wrapp-first">
             <div>
@@ -37,6 +37,7 @@ function Management() {
             <div className="userName"> Hồ Chí Minh </div>
           </div>
         </div>
+
         <div className="navbar-second">
           <div className="set-padding">
             <a href="">Breadcrumb</a>
@@ -51,36 +52,40 @@ function Management() {
             <img src={arrowIcon} alt="" />
           </div>
           <div className="set-padding">
-            <a href="">Breadcrumb</a>
+            <a href="#">Breadcrumb</a>
           </div>
           <div className="set-padding">
             <img src={arrowIcon} alt="" />
           </div>
           <div className="set-padding">
-            <a href="">Breadcrumb</a>
-          </div>
-        </div>
-
-        <div className="navbar-three-input">
-          <div>
-            <input
-              className="set-size-componentIp "
-              type="text"
-              placeholder="Nhập tên đề xuất"
-            />
-          </div>
-          <div>
-            <select className="set-size-select">
-              <option value="Category">Category: tất cả</option>
-            </select>
-          </div>
-          <div>
-            <select className="set-size-select ">
-              <option value="trang thai">Trạng thái: tất cả</option>
-            </select>
+            <a href="#" className="active">
+              Breadcrumb
+            </a>
           </div>
         </div>
         <div>
+          <div className="navbar-three-input">
+            <div>
+              <input
+                className="set-size-componentIp "
+                type="text"
+                placeholder="Nhập tên đề xuất"
+              />
+            </div>
+            <div>
+              <select className="set-size-select">
+                <option value="Category">Category: tất cả</option>
+              </select>
+            </div>
+            <div>
+              <select className="set-size-select ">
+                <option value="trang thai">Trạng thái: tất cả</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div className="div-table">
           <table>
             <tbody>
               <tr className="head-table table-management">

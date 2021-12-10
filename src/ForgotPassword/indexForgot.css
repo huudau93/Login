@@ -1,5 +1,6 @@
 .total-background {
   display: flex;
+  position: relative;
   padding-top: 48px;
   padding-bottom: 48px;
   flex-direction: column;
@@ -9,17 +10,26 @@
   background-size: 100%;
   align-items: center;
 }
-
+.total-background::after {
+  content: "";
+  min-height: 100vh;
+  position: absolute;
+  min-width: 100vw;
+  background-color: black;
+  opacity: 0.7;
+  top: 0px;
+  bottom: 0px;
+}
 .main-ForgotPassV {
   max-width: 418px;
   display: flex;
   flex-direction: column;
   align-content: center;
-  min-zoom: 100vh;
-  zoom: 200vh;
+
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .backIcon {

@@ -51,35 +51,6 @@ function Login() {
               Đăng Nhập
             </button>
           </div>
-          {/* <div className="container-main ">
-            
-
-
-            <div className="stylePass">
-              <label>
-                Password<span className="text-danger">*</span>
-              </label>
-              <a className="colorTag">Forgot password ?</a>
-            </div>
-
-            <input
-              id="passid"
-              className="col-sm-12 set-border"
-              type="text"
-              placeholder="Nhập mật khẩu"
-            />
-            <span id="spanPassID" className="inValid text-danger">
-              password is incorrect
-            </span>
-
-            <div className=" text-center line-heigh">
-              <input
-                type="button"
-                className="col-sm-12 btn btn-primary"
-                value="Đăng Nhập"
-              />
-            </div>
-          </div> */}
         </div>
       </div>
     </React.Fragment>
