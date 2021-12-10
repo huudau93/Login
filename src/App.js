@@ -12,8 +12,8 @@ function App() {
   //return <ForgotPassword />;
   //return <Login />;
   //return <SuccessMessage />;
-  //return <CreateNewPassword />;
-  return <SuccessFully />;
+  return <CreateNewPassword />;
+  //return <SuccessFully />;
   //
   //return <Management />;
 }

@@ -36,7 +36,8 @@ function Login() {
             <input
               id="passid"
               className="userNameLogin"
-              type="text"
+              type="password"
+              name="pw"
               placeholder="Nhập mật khẩu"
             />
           </div>

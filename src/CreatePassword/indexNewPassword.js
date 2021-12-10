@@ -22,7 +22,7 @@ function CreateNewPassword() {
             <input
               id="userid"
               className="col-sm-12 set-border"
-              type="text"
+              type="password"
               placeholder="Nhập mật khẩu"
             />
           </div>
@@ -33,7 +33,11 @@ function CreateNewPassword() {
           </div>
 
           <div className="set-border">
-            <input id="passIputid" type="text" placeholder="Nhập mật khẩu" />
+            <input
+              id="passIputid"
+              type="password"
+              placeholder="Nhập mật khẩu"
+            />
           </div>
 
           <div className="setSpaceBtn">
