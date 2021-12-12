@@ -1,0 +1,238 @@
+.main-Offer {
+  min-width: 45.5vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-Offer {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.title-offer {
+  height: 6.9vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  padding-left: 24px;
+  font-size: 20px;
+  color: #27272a;
+}
+
+.head-offer {
+  display: flex;
+  flex-direction: row;
+  height: 8.88vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.textHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+.mark-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.circleIcon {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+a {
+  color: black;
+}
+
+.activeDefault {
+  font-weight: bold;
+}
+.gray {
+  color: gray;
+}
+
+.body-offer {
+  width: 100%;
+  height: 78vh;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #f5f5fa;
+  padding-top: 24px;
+  margin-bottom: 0px;
+}
+.setWidth-element {
+  width: 100%;
+  padding-bottom: 18px;
+}
+.setHigh-element {
+  height: 50px;
+  border: 1px solid #dddde3;
+  border-radius: 4px;
+  padding-left: 12px;
+  font-size: 14px;
+  width: 100%;
+  /* padding-top: 13px; */
+}
+.special-div {
+  padding-bottom: 18px;
+  width: 100%;
+}
+.input-offer {
+  width: 100%;
+  height: 50px;
+  padding-left: 12px;
+  border: 1px solid #dddde3;
+  border-radius: 4px;
+}
+.foot-offerModel {
+  position: relative;
+  background-color: #fff;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 6.22vh;
+  width: 100%;
+}
+.create-buttonForm {
+  height: 40px;
+  padding-left: 36px;
+  padding-right: 36px;
+  border: none;
+  background-color: #1a94ff;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+button.color-active-btn:hover {
+}
+button.color-active-btn:active {
+  background-color: #1a94ff;
+}
+
+.divHeadColumn-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 204px;
+}
+.divHeadColumn-between {
+  width: 203px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.divHeadColumn-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 204px;
+}
+.tick {
+  width: 89.33px;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.circleStart {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: #1a94ff;
+}
+.circleBetween {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0px 4px 0px 4px;
+}
+.circleEnd {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.step-one {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.step-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.step-three {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.uploadIcon {
+  background-color: #c4c4cf;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+a:link {
+}
+a:visited {
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  color: #1a94ff;
+}
+a:active {
+  color: black;
+  font-weight: bold;
+}
+.select-category {
+  width: 375px;
+  height: 304px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 20px;
+  margin-top: 8px;
+  overflow-y: scroll;
+  background-color: #fff;
+  border-radius: 8px;
+  display: none;
+  z-index: 1;
+}
+.add-category {
+  height: 40px;
+  cursor: pointer;
+}

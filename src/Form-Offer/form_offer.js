@@ -1,0 +1,120 @@
+import React from "react";
+import "./form_offer.css";
+import iconUpload from "../asset/image/offerVector.png";
+
+function FormOffer() {
+  return (
+    <>
+      <div className="container-Offer">
+        <div className="main-Offer">
+          <div className="title-offer">Tạo mẫu đề xuất</div>
+
+          <div className="head-offer">
+            <div className="divHeadColumn-start">
+              <div className="step-one">
+                <div className="circleStart"></div>
+                <div className="tick"></div>
+              </div>
+              <div>
+                <a className="activeDefault" href="#">
+                  Cài đặt cơ bản
+                </a>
+              </div>
+            </div>
+            <div className="divHeadColumn-between">
+              <div className="step-two">
+                <div className="tick"></div>
+                <div className="circleBetween"></div>
+                <div className="tick"></div>
+              </div>
+              <div>
+                <a href="#">Form mẫu đề xuất</a>
+              </div>
+            </div>
+            <div className="divHeadColumn-end">
+              <div className="step-three">
+                <div className="tick"></div>
+                <div className="circleEnd"></div>
+              </div>
+              <div>
+                <a href="#"> Quy trình xét duyệt</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="body-offer">
+            <div>
+              Tên đề xuất
+              <span className="text-danger">*</span>
+            </div>
+            <div className="special-div">
+              <input
+                className="input-offer"
+                type="text"
+                placeholder="Nhập tên đề xuất"
+              />
+            </div>
+            <div>Category</div>
+            <div className="setWidth-element">
+              <select name="selectCategory" className="setHigh-element">
+                <option value="d">category 1</option>
+                <option value="s">category 1</option>
+                <option value="d">category 1</option>
+                <option value="c">category 1</option>
+                <option value="s">category 1</option>
+                <option value="c">category 1</option>
+                <option value="v">category 1</option>
+                <option value="b">category 1</option>
+                <option value="n">category 1</option>
+                <option value="m">category 1</option>
+                <option value=",">category 1</option>
+                <option value=".">category 1</option>
+                <option value="j">category 1</option>
+                <option value="r">category 1</option>
+                <option value="d">category 1</option>
+                <option value="ss">category 1</option>
+                <option value="saas">category 1</option>
+                <option value="sdf">category 1</option>
+                <option value="dfd">category 2</option>
+              </select>
+            </div>
+            <div>
+              Phạm vi áp dụng
+              <span className="text-danger">*</span>
+            </div>
+            <div className="setWidth-element">
+              <select name="scopeName" className="setHigh-element">
+                <option value="d">catoeir</option>
+              </select>
+            </div>
+            <div>Mô tả đề xuất</div>
+            <div className="setWidth-element">
+              <textarea className="setWidth-element" rows="4"></textarea>
+            </div>
+
+            <div>Upload Icon</div>
+            <div className="uploadIcon">
+              <img src={iconUpload} alt="icon" />
+            </div>
+          </div>
+
+          <div className="foot-offerModel text-right">
+            <button
+              className="btn btn-outline-primary create-buttonForm "
+              type=""
+            >
+              Tạo
+            </button>
+            <button
+              className="btn btn-outline-primary color-active-btn"
+              type=""
+            >
+              Đóng
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+export default FormOffer;

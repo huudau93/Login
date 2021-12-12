@@ -30,7 +30,9 @@ function Login() {
             <label>
               Password<span className="text-danger">*</span>
             </label>
-            <a className="colorTag">Forgot password ?</a>
+            <a href="#" className="colorTag">
+              Forgot password ?
+            </a>
           </div>
           <div>
             <input
