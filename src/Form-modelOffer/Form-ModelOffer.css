@@ -1,0 +1,105 @@
+.container-model {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.add-field {
+  font-size: 16px;
+}
+.transparent-btn {
+  background-color: transparent;
+  height: 40px;
+  font-size: 18px;
+  padding-top: 8px;
+  color: #1a94ff;
+  border: none;
+}
+
+.transparent-btn:focus {
+  outline: none;
+  border: none;
+}
+.imageAdd {
+  padding-right: 13px;
+}
+.form-dataField {
+  width: 608px;
+  margin-top: 24px;
+  padding: 4px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px solid #1a94ff;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.footer-form {
+  width: 100%;
+  height: 58px;
+  border-top: 1px solid #d7d7dd;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.secondLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.second-one {
+  width: 386px;
+  margin-right: 16px;
+}
+.second-two {
+  width: 174px;
+}
+.inputDataForm-Second {
+  height: 40px;
+  width: 100%;
+}
+.sizeOfSelect {
+  width: 100%;
+  height: 40px;
+}
+.threeLayout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.threeLayout-two {
+  padding-bottom: 20px;
+  padding-top: 0px;
+  width: 100%;
+}
+.iconBtn {
+  background-color: transparent;
+  border: none;
+}
+.iconBtn:hover {
+}
+.iconBtn:active {
+  background-color: gainsboro;
+}
+.iconBtn:focus {
+  outline: none;
+  border: none;
+}
+.optionWrapper {
+  border-right: 2px solid rgb(179, 177, 177);
+  padding-right: 15px;
+}
+.switchOption {
+  padding-left: 15px;
+}
+.lblMargin {
+  margin-bottom: -15px;
+  margin-right: 8px;
+}

@@ -1,5 +1,5 @@
 .main-Offer {
-  min-width: 45.5vw;
+  min-width: 656px;
   height: 100vh;
   background-color: #fff;
   display: flex;
@@ -34,6 +34,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
 }
 .textHeader {
   display: flex;
@@ -77,6 +78,7 @@ a {
   background-color: #f5f5fa;
   padding-top: 24px;
   margin-bottom: 0px;
+  font-size: 18px;
 }
 .setWidth-element {
   width: 100%;
@@ -87,7 +89,7 @@ a {
   border: 1px solid #dddde3;
   border-radius: 4px;
   padding-left: 12px;
-  font-size: 14px;
+  font-size: 18px;
   width: 100%;
   /* padding-top: 13px; */
 }
@@ -109,7 +111,7 @@ a {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  height: 6.22vh;
+  height: 56px;
   width: 100%;
 }
 .create-buttonForm {
@@ -212,13 +214,19 @@ a:visited {
   color: black;
   font-weight: bold;
 }
-a:hover {
-  color: #1a94ff;
-}
-a:active {
+a.linkForm:hover {
   color: black;
   font-weight: bold;
 }
+a.linkForm:active {
+  color: black;
+  font-weight: bold;
+}
+a.activeDefault:hover {
+  color: black;
+  font-weight: bold;
+}
+
 .select-category {
   width: 375px;
   height: 304px;
@@ -235,4 +243,68 @@ a:active {
 .add-category {
   height: 40px;
   cursor: pointer;
+}
+.select-items {
+  width: 200px;
+}
+select:nth-child(3) {
+  appearance: none;
+  width: 150px;
+}
+
+.selectDiv-category {
+  width: 100%;
+  height: 15px;
+}
+.selectElement-category {
+  width: 100%;
+  height: 45px;
+  padding-left: 12px;
+  border-radius: 4px;
+  border: 1px solid #dddde3;
+  background-color: #fff;
+}
+.listElement {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #dddde3;
+}
+.listElement li {
+  height: 45px;
+  padding-left: 12px;
+}
+option:nth-child(1) {
+  color: #1a94ff;
+  width: 200px;
+}
+/* select.setHigh-element:hover {
+  outline: none;
+  border: 1px solid green;
+} */
+/* select.setHigh-element:focus {
+  outline: none;
+  border: 1px solid #1a94ff;
+} */
+input:hover {
+}
+input:focus {
+  outline: none;
+  border: 1px solid #1a94ff;
+}
+textarea:focus {
+  outline: none;
+  border: 1px solid #1a94ff;
+}
+
+.WithSelect {
+  width: 300px;
+  height: 50px;
+}
+textarea.setWidth-element {
+  border-radius: 4px;
+  padding: 12px 12px 12px 12px;
+}
+.setBorder {
+  border: 1px solid #dddde3;
 }

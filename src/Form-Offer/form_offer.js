@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./form_offer.css";
+
 import iconUpload from "../asset/image/offerVector.png";
+import FormModelOffer from "../Form-modelOffer/Form-ModelOffer";
 
 function FormOffer() {
   return (
@@ -28,7 +30,9 @@ function FormOffer() {
                 <div className="tick"></div>
               </div>
               <div>
-                <a href="#">Form mẫu đề xuất</a>
+                <a className="linkForm" href="#">
+                  Form mẫu đề xuất
+                </a>
               </div>
             </div>
             <div className="divHeadColumn-end">
@@ -37,65 +41,56 @@ function FormOffer() {
                 <div className="circleEnd"></div>
               </div>
               <div>
-                <a href="#"> Quy trình xét duyệt</a>
+                <a className="linkForm" href="#">
+                  {" "}
+                  Quy trình xét duyệt
+                </a>
               </div>
             </div>
           </div>
 
           <div className="body-offer">
-            <div>
+            <FormModelOffer />
+            {/* <div>
               Tên đề xuất
               <span className="text-danger">*</span>
             </div>
             <div className="special-div">
               <input
-                className="input-offer"
+                className="input-offer form-control"
                 type="text"
                 placeholder="Nhập tên đề xuất"
               />
             </div>
             <div>Category</div>
-            <div className="setWidth-element">
-              <select name="selectCategory" className="setHigh-element">
-                <option value="d">category 1</option>
-                <option value="s">category 1</option>
-                <option value="d">category 1</option>
-                <option value="c">category 1</option>
-                <option value="s">category 1</option>
-                <option value="c">category 1</option>
-                <option value="v">category 1</option>
-                <option value="b">category 1</option>
-                <option value="n">category 1</option>
-                <option value="m">category 1</option>
-                <option value=",">category 1</option>
-                <option value=".">category 1</option>
-                <option value="j">category 1</option>
-                <option value="r">category 1</option>
-                <option value="d">category 1</option>
-                <option value="ss">category 1</option>
-                <option value="saas">category 1</option>
-                <option value="sdf">category 1</option>
-                <option value="dfd">category 2</option>
-              </select>
+            {/* /* pham vi ----------------------------------------------------------------------------------------- */}
+            {/* <div className="setWidth-element">
+              <select className="form-control setHigh-element"></select>
             </div>
-            <div>
+            {/* /* pham vi ------------------------------------------------------------------------------------ */}
+            {/* <div>
               Phạm vi áp dụng
               <span className="text-danger">*</span>
             </div>
-            <div className="setWidth-element">
-              <select name="scopeName" className="setHigh-element">
-                <option value="d">catoeir</option>
+            <div className="setWidth-element ">
+              <select
+                name="scopeName"
+                className="setHigh-element form-control "
+              >
+                <option value="d">Category</option>
               </select>
             </div>
             <div>Mô tả đề xuất</div>
             <div className="setWidth-element">
-              <textarea className="setWidth-element" rows="4"></textarea>
+              <textarea
+                className="setWidth-element setBorder form-control"
+                rows="4"
+              ></textarea>
             </div>
-
             <div>Upload Icon</div>
             <div className="uploadIcon">
               <img src={iconUpload} alt="icon" />
-            </div>
+            </div> */}
           </div>
 
           <div className="foot-offerModel text-right">

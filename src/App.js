@@ -6,18 +6,25 @@ import SuccessMessage from "./Notification_resetPasswordSuccess/indexNotificatio
 import SuccessFully from "./MessageSuccess/success";
 import Management from "./AccessManagerment/management";
 import FormOffer from "./Form-Offer/form_offer";
-
-// import logo from "./Group 1082.jpg";
+import RequestOpenSuccess from "./notification/RequestOpenSuccess";
+import NoSaveDataNotifi from "./saveDataNotification/SaveDataNotifi";
+import BlockOffer from "./blockoffer/BlockOffer";
+import "./App.css";
 
 function App() {
   //return <ForgotPassword />;
+
   //return <Login />;
+
   //return <SuccessMessage />;
   //return <CreateNewPassword />;
   //return <SuccessFully />;
-  //
-  //return <Management />;
-  return <FormOffer />;
+  return <Management />;
+  //return <FormOffer />;
+  //return <Login />;
+  //return <RequestOpenSuccess />;
+  //return <NoSaveDataNotifi />;
+  //return <BlockOffer />;
 }
 
 export default App;

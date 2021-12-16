@@ -1,0 +1,31 @@
+.wrapper-notifi {
+  position: relative;
+  min-width: 484px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 16px;
+}
+.textNotification {
+  width: 100%;
+  padding-bottom: 85px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 24px;
+}
+.bottomNotifi {
+  border-top: 1px solid #ebebf0;
+  display: flex;
+  padding: 8px 16px 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 16px;
+  padding-right: 16px;
+}
+.cancelButton {
+  margin-right: 10px;
+}

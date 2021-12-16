@@ -1,0 +1,34 @@
+.footer-form {
+  width: 100%;
+  height: 58px;
+  border-top: 1px solid #d7d7dd;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.optionWrapper {
+  border-right: 2px solid rgb(179, 177, 177);
+  padding-right: 15px;
+}
+.iconBtn {
+  background-color: transparent;
+  border: none;
+}
+.iconBtn:hover {
+}
+.iconBtn:active {
+  background-color: gainsboro;
+}
+.iconBtn:focus {
+  outline: none;
+  border: none;
+}
+
+.switchOption {
+  padding-left: 15px;
+}
+.lblMargin {
+  margin-bottom: -15px;
+  margin-right: 8px;
+}
