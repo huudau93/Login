@@ -3,6 +3,7 @@ import { Router, Link, Routes, Route } from "react-router-dom";
 import logo from "../asset/image/sskpi.png";
 import avatar from "../asset/image/Content/avatar.png";
 import arrowIcon from "../asset/image/arrow.png";
+import { Breadcrumb } from "antd";
 
 function ContainerPage(props) {
   return (
@@ -36,27 +37,22 @@ function ContainerPage(props) {
         </div>
 
         <div className="navbar-second">
-          <div className="set-padding">
-            <a href="/">Breadcrumb</a>
-          </div>
-          <div className="set-padding">
-            <img src={arrowIcon} alt="" />
-          </div>
-          <div className="set-padding">
-            <a href="/">Breadcrumb</a>
-          </div>
-          <div className="set-padding">
-            <img src={arrowIcon} alt="" />
-          </div>
-          <div className="set-padding">
-            <a href="/">Breadcrumb</a>
-          </div>
-          <div className="set-padding">
-            <img src={arrowIcon} alt="" />
-          </div>
-          <div className="set-padding">
-            <a href="/">Breadcrumb</a>
-          </div>
+          <Breadcrumb
+            separator={
+              <img className="imgMarginIc" src={arrowIcon} alt="arrow" />
+            }
+          >
+            <Breadcrumb.Item className="color-breadcrumb" href="">
+              Breadcrumb
+            </Breadcrumb.Item>
+            <Breadcrumb.Item className="color-breadcrumb" href="">
+              Breadcrumb
+            </Breadcrumb.Item>
+            <Breadcrumb.Item className="color-breadcrumb" href="">
+              Breadcrumb
+            </Breadcrumb.Item>
+            <Breadcrumb.Item>Breadcrumb</Breadcrumb.Item>
+          </Breadcrumb>
         </div>
       </div>
       {props.content}
