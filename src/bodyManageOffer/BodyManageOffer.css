@@ -106,7 +106,12 @@ select {
   color: #ffffff;
   margin-right: 11 px;
 }
-
+.setmargin-table {
+  width: 100%;
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 .container-bottom {
   display: flex;
   flex-direction: column;

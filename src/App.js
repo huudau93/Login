@@ -9,6 +9,7 @@ import FormOffer from "./Form-Offer/form_offer";
 import RequestOpenSuccess from "./notification/RequestOpenSuccess";
 import NoSaveDataNotifi from "./saveDataNotification/SaveDataNotifi";
 import BlockOffer from "./blockoffer/BlockOffer";
+import TableManage from "./table/TableManage";
 import "./App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
   //return <RequestOpenSuccess />;
   //return <NoSaveDataNotifi />;
   //return <BlockOffer />;
+  //return <TableManage />;
 }
 
 export default App;

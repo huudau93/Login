@@ -3,6 +3,7 @@ import "./BodyManageOffer.css";
 import fileicon from "../asset/image/file.png";
 import iconIndex from "../asset/image/icontb.png";
 import file from "../asset/image/fill.png";
+import TableManage from "../table/TableManage";
 
 function BodyManageOffer() {
   return (
@@ -26,8 +27,11 @@ function BodyManageOffer() {
           </select>
         </div>
       </div>
+      <div className="setmargin-table">
+        <TableManage></TableManage>
+      </div>
 
-      <div className="div-table">
+      {/* <div className="div-table">
         <table>
           <tbody>
             <tr className="head-table table-management">
@@ -58,7 +62,7 @@ function BodyManageOffer() {
           />
         </div>
         <div>Chưa có đề xuất nào</div>
-      </div>
+      </div> */}
       {/* </ContainerPage> */}
     </React.Fragment>
   );
